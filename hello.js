@@ -6,9 +6,12 @@
 // // This is a small change
 
 let num = Math.random();
-if  (num > 0){
-    console.log("It's a positive number");
-}
-else{
-    console.log("It's a negative number");
+for(let i=0; i<5; i++){
+  let num = Math.random();
+  if(num > 0.5){
+    console.log("Heads");
+  }
+  else{
+    console.log("Tails");
+  }
 }
