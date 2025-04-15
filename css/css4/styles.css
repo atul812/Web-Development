@@ -45,5 +45,34 @@
     margin-bottom: 10px;
   }
 
+  #welcome > p{
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+
+  #catalog-input #form-btn{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 8px;
+  }
+
+  #catalog-input{
+    border: solid 2px;
+    border-width: 37.5%;
+  }
+
+  #staff-picks{
+    text-align: center;
+  }
+
+  .staff-pic-img{
+    border: solid 1px;
+    border-radius: 0 7px 7px 0;
+    width: 10em;
+    height: 15em;
+  }
+
 
   
